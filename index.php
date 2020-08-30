@@ -106,7 +106,6 @@ include 'koneksi.php';
 						
 						<?php $ambil=$koneksi->query("SELECT * FROM produk ORDER BY id_produk DESC LIMIT 6"); ?>
 						<?php while($perproduk=$ambil->fetch_assoc()){ ?>
-							
 						<div class="col-sm-4 padding-right">
 							<div class="product-image-wrapper">
 								<div class="single-products">

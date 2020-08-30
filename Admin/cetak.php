@@ -18,7 +18,7 @@ $pdf->SetX(4);
 $pdf->MultiCell(19.5,0.5,'Telpon : 085715471601',0,'L');    
 $pdf->SetFont('Arial','B',10);
 $pdf->SetX(4);
-$pdf->MultiCell(19.5,0.5,'website : www.g-cosmetics.com email : rizkikomputery@gmail.com',0,'L');
+$pdf->MultiCell(19.5,0.5,'website : www.rizkicomputer.xyz email : rizkikomputer@gmail.com',0,'L');
 $pdf->Line(1,3.1,28.5,3.1);
 $pdf->SetLineWidth(0.1);      
 $pdf->Line(1,3.2,28.5,3.2);   
