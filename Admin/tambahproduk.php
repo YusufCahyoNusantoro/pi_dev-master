@@ -1,6 +1,6 @@
 <h2> Tambah produk </h2>
 
-<form method="post" enctype="">
+<form method="post" enctype="multipart/form-data">
 	<div class="form-group">
 			<label> nama</label>
 			<input type="text" class="form-control" name="nama">
@@ -32,7 +32,7 @@
 	</div>
 	<div class="form-group">
 		<label>Foto </label>
-		<input type="file" class="form-control" name="foto" name="foto">
+		<input type="file" class="custom-file-input" name="foto" id="foto"> 
 	</div>
 	<br>
 	<button class="btn btn-primary" name="save">Simpan</button>
@@ -50,4 +50,5 @@ if (isset($_POST['save']))
 	echo "<div class='alert alert-info'>Data tersimpan</div>";
 	echo "<meta http-equiv='refresh' content='1;url=index.php?halaman=produk'>";	
 }
+
 ?>
